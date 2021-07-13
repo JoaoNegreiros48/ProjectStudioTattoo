@@ -267,7 +267,7 @@ input[type = 'submit']{
     }
 }
 
-@media (max-height: 667px){
+@media (max-width: 667px){
     .contato .left .info{
         display: flex;
         flex-direction: column;
@@ -289,7 +289,35 @@ input[type = 'submit']{
         
     }
     input[type = 'submit']{
-        width: 408px;
+        width: 410px;
+        height: 40px;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 414px){
+    .contato .left .info{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+        margin-top: 27px;
+    }
+    .contato .left .info input{
+        width: 400px;
+        height: 40px;
+    }
+    .contato .left .info select{
+        width: 410px;
+        height: 40px;
+    }
+    .contato .left #menssagem{
+        margin-left: 25px;
+        width: 385px;
+        height: 162px;
+        
+    }
+    input[type = 'submit']{
+        width: 410px;
         height: 40px;
         margin-left: 25px;
     }
